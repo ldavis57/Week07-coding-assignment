@@ -20,7 +20,7 @@ let newDifference = ages.at(-1) - ages[0]; // at(-1) gets the last element of th
 console.log(`New difference after adding age: ${newDifference}`); // display the new difference between the last and first element
 
 // 3. Use a loop to iterate through the array and calculate the average age.
-let totalAge = 0;
+let totalAge = 0; // initialize a variable to hold the total age
 for (let i = 0; i < ages.length; i++) { // iterate through the ages array until reaching last element
     totalAge += ages[i]; // add each age in ages to a new variable totalAge
 }
@@ -54,13 +54,15 @@ console.log("All names:", allNames.trim()); // display all names concatenated to
 
 console.log("✅ 3. How do you access the last element of any array?");
 // Access the last element of any array
-console.log(`Last name in array: ${names.at(-1)}`); // or you can use names[names.length - 1] to access the last element
+console.log(`Last name in array: ${names.at(-1)}`); 
+// or you can use names[names.length - 1] to access the last element
 
 
 
 console.log("✅ 4. How do you access the first element of any array?");
 // Access the first element of any array
-console.log(`First name in array: ${names[0]}`); // or you can use names[0] to access the first element
+console.log(`First name in array: ${names[0]}`);   
+// or you can use names[0] to access the first element
 
 
 
@@ -93,17 +95,17 @@ console.log("Sum of name lengths:", totalLength); // display the total length of
 console.log(`✅ 7. Write a function that takes two parameters, word and n, as arguments and returns
      the word concatenated to itself n number of times. 
      (i.e. if I pass in 'Hello' and 3, I would expect the function to return 'HelloHelloHello').`);
-function repeatWord(word, n) {
-    return word.repeat(n);
+function repeatWord(word, n) { // function to repeat a word n times
+    return word.repeat(n); // using the repeat method to concatenate the word n times
 
 }
 // or use a loop to print the word b times
-let concatWords = (a, b) => {
-    let result = "";
-    for (let i = 0; i < b; i++) {
-        result += a;
+let concatWords = (a, b) => { // function to concatenate a word b times
+    let result = ""; // initialize an empty string to hold the result
+    for (let i = 0; i < b; i++) { // iterate b times
+        result += a; // concatenate the word a to the result
     }
-    return result;
+    return result; // return the concatenated result
 }
 
 console.log(repeatWord("Hello", 8)); // Output: HelloHelloHelloHelloHelloHelloHelloHello
@@ -132,8 +134,8 @@ const isSumGreaterThan100 = (arr) => { // function to check if sum of numbers in
     return sum > 100; // returns true or false based on whether sum is greater than 100
 };
 
-console.log(isSumGreaterThan100([20, 30, 40, 15])); // true
-console.log(isSumGreaterThan100([20, 30, 40, 1])); // false
+console.log(isSumGreaterThan100([20, 30, 40, 15])); // 105 is greater than 100 so returns true
+console.log(isSumGreaterThan100([20, 30, 40, 1])); // 91 is less than 100 so returns false
 
 
 
