@@ -1,15 +1,12 @@
-# Front-End Project
+# Front-End Week 7 JavaScript Coding Assignment
 <div align="center">
 
-  <img src="images/NSCDXVIIC-Logo-Color-Trans.png" alt="logo" width="200" height="auto" />
-  <h1>Looking Glass Chapter, CDXVIIC, Website</h1>
-  
   <p>
-    Showcasing HTML with Bootstrap, utlizing Bootstrap Grid with tables and a form.
+    Showcasing JavaScript.
   </p>
     
   <p>
-    Demonstrates Bootstrap grid with node.js and npm.
+    Demonstrates JavaScript and NPM
   </p>
   
 </div>
@@ -25,10 +22,10 @@
 </details>
 
 <details>
-  <summary>Bootstrap</summary>
+  <summary>JavaScript</summary>
   <ul>
-    <li><a href="https://getbootstrap.com/">Bootstrap</a></li>
-    <li><a href="https://nodejs.org/">node.js</a></li>
+    <li><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript">JavaScript MDN Web Docs</a></li>
+    <li><a href="https://www.npmjs.com/">NPM</a></li>  
   </ul>
 </details>
 
@@ -38,13 +35,13 @@
 Clone the project
 
 ```bash and powershell
-  git clone https://github.com/ldavis57/Week03-coding-assignment
+  git clone https://github.com/ldavis57/Week07-coding-assignment
 ```
 ### :email: Contact
 Lana Davis - davis.lanac@gmail.com
 
-:link: Project Link: https://github.com/ldavis57/Week03-coding-assignment<br>
-:link: Visit site at https://ldavis57.github.io/Week03-coding-assignment
+:link: Project Link: https://github.com/ldavis57/Week07-coding-assignment<br>
+:link: Visit site at https://github.com/ldavis57
 
 <!-- Acknowledgments -->
 ## :gem: Acknowledgements
